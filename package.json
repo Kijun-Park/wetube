@@ -2,13 +2,24 @@
   "name": "wetube",
   "version": "1.0.0",
   "description": "Cloning Youtube with VanillaJS and NodeJS",
-  "main": "index.js",
+  "main": "init.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node init.js --delay 1"
   },
   "author": "KiJun Park",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "helmet": "^3.19.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1"
   }
 }
