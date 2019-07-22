@@ -5,7 +5,7 @@ export const videos = [
     description: "this is something I love",
     views: 24,
     videoFile:
-      "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_stereo_abl.mp4",
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 234,
       name: "KiJun Park",
@@ -18,7 +18,7 @@ export const videos = [
     description: "this is something I love",
     views: 24,
     videoFile:
-      "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_stereo_abl.mp4",
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 234,
       name: "KiJun Park",
@@ -31,7 +31,7 @@ export const videos = [
     description: "this is something I love",
     views: 24,
     videoFile:
-      "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_stereo_abl.mp4",
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     creator: {
       id: 234,
       name: "KiJun Park",
