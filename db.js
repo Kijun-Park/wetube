@@ -18,7 +18,7 @@ export const videos = [
     description: "this is something I love",
     views: 24,
     videoFile:
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     creator: {
       id: 234,
       name: "KiJun Park",
@@ -31,7 +31,7 @@ export const videos = [
     description: "this is something I love",
     views: 24,
     videoFile:
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     creator: {
       id: 234,
       name: "KiJun Park",
