@@ -90,6 +90,11 @@ export const deleteVideo = async (req, res) => {
     params: { id }
   } = req;
 
+  console.log("hello world");
+  // if (!isDelete) {
+  //   res.redirect(routes.videoDetail(id));
+  // }
+
   try {
     await Video.findOneAndRemove({ _id: id });
     res.redirect(routes.home);
