@@ -31,16 +31,14 @@ export const getUpload = (req, res) =>
   res.render("upload", { pageTitle: "Upload" });
 
 export const postUpload = async (req, res) => {
-  console.log(req.image);
+  console.log(req.file);
   const {
     body: { title, description },
-    file: { path },
-    image: { imgUrl }
+    file: { path }
   } = req;
 
   const newVideo = await Video.create({
     fileUrl: path,
-    imgUrl,
     title,
     description
   });
