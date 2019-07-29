@@ -6,6 +6,9 @@ block content
             div.fileUpload
                 label(for="file") Video File
                 input(type="file", id="file", name="videoFile", required=true, accept="video/*")
+            div.fileUpload
+                label(for="image") Thumbnail Image
+                input(type="file", id="image", name="image", accept="image/*")
             input(type="text", placeholder="Title", name="title", required=true)
             textarea(name="description", placeholder="Description", required=true)
             input(type="submit", value="Upload Video")
